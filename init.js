@@ -8,10 +8,10 @@ client.once('ready', () => {
 });
 var msgcounter = 0;
 client.on('message', message => {
-	if(message.channel.id == autopurgechannel){nsfwchat++};
-	if(msgcounter >= messagemaximum){
-	message.channel.bulkDelete(messagemaximum);
-	msgcounter = 0;
+        if(message.channel.id == autopurgechannel){msgcounter++};
+        if(msgcounter >= messagemaximum){
+        message.channel.bulkDelete(messagemaximum);
+        msgcounter = 0;
 }});
 client.login(token);
 
