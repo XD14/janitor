@@ -12,9 +12,9 @@ Sample configuration file can be seen here:
 }
 ```
 
-`"token"` = Your Discord Bot's token. This is needed to sign into the Discord API.
-`"autopurgechannel"` = The channel in which the bot will monitor and purge over time.
-`"messagemaximum` = The bot's maximum tolerance for messages beyond the current session. Once this threshold is passed, the bot will purge.
+`"token"` = Your Discord Bot's token. This is needed to sign into the Discord API.  
+`"autopurgechannel"` = The channel in which the bot will monitor and purge over time.  
+`"messagemaximum` = The bot's maximum tolerance for messages beyond the current session. Once this threshold is passed, the bot will purge.  
 
 ## Getting started
 Getting started is as simple as running a few commands.
