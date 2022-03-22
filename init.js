@@ -11,7 +11,7 @@ client.on('message', message => {
 	if(message.channel.id == autopurgechannel){nsfwchat++};
 	if(msgcounter >= messagemaximum){
 	message.channel.bulkDelete(messagemaximum);
-	nsfwchat = 0;
+	msgcounter = 0;
 }});
 client.login(token);
 
