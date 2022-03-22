@@ -24,7 +24,8 @@ $ git clone https://github.com/XD14/janitor
 $ cd ./janitor-master
 $ npm install
 $ npm install -g pm2
-$ pm2 start init.js```
+$ pm2 start init.js
+```
 
 # Having issues?
 Create an issue and I can address problems.
