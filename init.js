@@ -6,7 +6,7 @@ const { messagemaximum } = require('./config.json');
 client.once('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
-var msgcounter = 0,
+var msgcounter = 0;
 client.on('message', message => {
 	if(message.channel.id == autopurgechannel){nsfwchat++};
 	if(msgcounter >= messagemaximum){
