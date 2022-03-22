@@ -4,13 +4,13 @@
   "description": "A NodeJS Discord bot that facilitates automatic purging of messages aged past a user-determined time threshold",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node init.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/6jx/janitor.git"
   },
-  "author": "",
+  "author": "6jx",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/6jx/janitor/issues"
